@@ -220,20 +220,3 @@ schedule.every(30).minutes.do(send_email)
 while True:
     schedule.run_pending()
     time.sleep(1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
